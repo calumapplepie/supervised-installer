@@ -50,10 +50,11 @@ remove their configuration from /etc/network/interfaces.
 
 Follow these steps before continuing!
 
-Step 2: Install Docker-CE with the following command:
+Step 2: Install Docker-CE with the following commands:
 
 ```bash
-curl -fsSL get.docker.com | sh
+curl -fsSL https://get.docker.com -o install-docker.sh
+sudo sh install-docker.sh
 ```
 
 Step 3: Install the OS-Agent:
